@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    font-family:"lato" sans-serif;
+}
+
+.imgSection{
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+}
+.image1{background-image: url('img/image1.jpeg'); height: 800px;}
+.image2{background-image: url('img/image2.jpeg'); height: 800px;}
+.image3{background-image: url('img/image3.jpeg'); height: 800px;}
+
+.parallaxText{
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+}
+
+.darkTxt{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+
+.imgText{
+    color:white;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+
+.txtSection{
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    color: grey;
+    font-style: 18px;
+    line-height: 30px;
+}
+
+.dark{
+    background-color: #282E34;
+    color: white; 
+}
+
+#grey{
+    font-weight: 700;
+    columns: #666666;
+}
+
+@media screen and (max-width:500px) {
+
+    .darktxt{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    
+}
+
