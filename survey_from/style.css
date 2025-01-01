@@ -1,0 +1,57 @@
+ body{
+    background-image: linear-gradient(to right ,red ,orange,green,blue);
+    width: 1000px;
+    height: 1260px;
+     padding-left: 115px;
+} 
+.myForm{
+    width: 1000px;
+    height: 1220px;
+    background-color: rgb(149, 210, 238);
+    padding: 10px;
+    border-radius: 8px;
+}
+#heading{
+    text-align: center;
+}
+
+#myText1{
+    border-radius: 5px;
+    width: 980px;
+    height: 22px;
+}
+
+#myText2{
+    border-radius: 5px;
+     width: 980px;
+     height: 22px;
+}
+
+#myText3{
+    border-radius: 5px;
+     width: 980px;
+     height: 22px;
+}
+
+#myDropdown1{
+    border-radius: 5px;
+     width: 980px;
+     height: 26px;
+}
+
+#myDropdown2{
+    border-radius: 5px;
+     width: 980px;
+     height: 26px;
+}
+
+#myTextArea{
+    border-radius: 5px;
+     width: 980px;
+}
+#myBtn{
+    border-radius: 5px;
+     width: 980px;
+     height: 35px;
+     background-color: rgb(191, 247, 241)
+}

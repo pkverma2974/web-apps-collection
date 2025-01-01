@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="myForm">
+        <h2 id="heading">Survey Form</h2>
+
+        <form>
+            <label for="myText1">Name</label>
+            <br><br>
+            <input type="text" id="myText1" placeholder="Enter your Name" required>
+            <br><br><br>
+
+            <label for="myText2">Email</label>
+            <br><br>
+            <input type="text" id="myText2" placeholder="Enter your Email" required>
+
+            <br><br><br>
+
+            <label for="myText3">Age</label>
+            <br><br>
+            <input type="number" id="myText3" placeholder="Enter your Age" required>
+
+            <br><br><br>
+
+            <label for="myDropdown1">Which option best describes your current role?</label>
+            <br><br>
+            <select id="myDropdown1">
+                <option selected>Select current role</option>
+                <option value="option-1">Student</option>
+                <option value="option-2">Part-time Worker</option>
+                <option value="option-3">Full-time Worker</option>
+                <option value="other">Other</option>
+            </select>
+
+            <br><br><br>
+
+            <label for="radio">Would you recommend CodingSteps to a friend?</label>
+            <br><br>
+            <input type="radio" id="radio1" name="myRadio">
+            <label for="radio1">Definitely</label>
+            <br>
+            <input type="radio" id="radio2" name="myRadio">
+            <label for="radio2">May be</label>
+             <br>
+            <input type="radio" id="radio3" name="myRadio">
+            <label for="radio3">Not Sure</label>
+
+            <br><br><br>
+
+            <label for="myDropdown2">What is your feature of this course?</label>
+            <br><br>
+            <select id="myDropdown2">
+                <option selected>Select an option</option>
+                <option value="option-1">Challenges</option>
+                <option value="option-2">Projets</option>
+                <option value="option-3">Learning</option>
+            </select>
+
+            <br><br><br>
+
+            <label for="myDropdown3">What would you like to see improved?(Check all that apply) </label>
+            <br><br>
+            <input type="checkbox" id="check1">
+            <label for="check1">Front-end Projects</label>
+            <br>
+            <input type="checkbox" id="check2">
+            <label for="check2">Back-end Projects</label>
+            <br>
+            <input type="checkbox" id="check3">
+            <label for="check3">Challenges</label>
+            <br>
+            <input type="checkbox" id="check4">
+            <label for="check4">Learning Pace</label>
+            <br>
+            <input type="checkbox" id="check5">
+            <label for="check5">Assignments</label>
+            <br>
+            <input type="checkbox" id="check6">
+            <label for="check6">Additional Courses</label>
+
+            <br><br><br>
+
+            <label for="suggestions">Any comments or suggestions?</label>
+            <br><br>
+            <textarea id="myTextArea" cols="30" rows="13"></textarea>
+
+            <br><br><br>
+
+            <input type="submit" value="Submit Form" id="myBtn">
+        </form>
+    </div>
+    
+</body>
+</html>
