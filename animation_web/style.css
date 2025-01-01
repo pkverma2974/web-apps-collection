@@ -1,0 +1,113 @@
+
+.Contents{
+   list-style-type: none;
+   margin: 0;
+   padding-left: 10px;
+   padding-bottom: 15px;
+   height: 25px;
+   background-color:rgb(29, 165, 165);
+}
+li{
+   float: left;
+   padding: 10px;
+}
+a{
+   color: white;
+   text-align: center;
+   text-decoration: none;
+}
+li:hover{
+   background-color: black;
+}
+.dropdown{
+   position: relative;
+}
+.dropdown:hover .dropdownContent{
+   display: block;
+} 
+.dropdownContent{
+   display: none;
+   position: absolute;
+   top: 40px;
+   left: 0px;
+   min-width: 100px;
+   background-color:rgb(84, 161, 161) ;
+}
+.dropdownContent a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdownContent a:hover{
+    background-color: black;
+}
+.dlink:hover{
+    display: block;
+    background-color: cyan;
+} 
+
+.class1{
+    text-align: center;
+    margin: 10px;
+    width: 420px;
+    height: 40px;
+    padding-bottom: 1px;
+    background-color: yellow;
+    animation-name: example1;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+
+}
+@keyframes example1{
+    0%{background-color: red;width: 420px;transform: translate(0px,0px);}
+    25%{background-color: cyan;width: 420px;transform: translate(250px,0px);}
+    50%{background-color: green;width: 420px;transform: translate(500px,0px);}
+    75%{background-color: yellow;width: 420px;transform: translate(750px,0px);}
+    100%{background-color: blue;width: 420px;transform: translate(1000px,0px);}
+}
+.class2{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 400px;
+    height: 30px;
+    background-color: lightsalmon;
+}
+.class2:hover{
+    padding: 20px;
+    width: 600px;
+    height: 45px;
+    transition: width 5s,height 5s 2s,transform 5s;
+    transition-timing-function: linear;
+}
+
+ h2{
+     margin-left: 8px;
+    position: relative;
+    float: left;
+    bottom: 20px;
+} 
+
+.class3{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+    animation-name: example2;
+    animation-duration: 7.5s;
+    transition-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+@keyframes example2{
+    0%{background-color: blue;width: 80px;height: 80px; transform: translate(0px,0px);}
+    25%{background-color: yellow;width: 80px;height: 80px; transform: translate(250px,0px);}
+    50%{background-color: red;width: 80px;height: 80px; transform: translate(250px,250px);}
+    75%{background-color: cyan;width: 80px;height: 80px; transform: translate(0px,250px);}
+    100%{background-color: cyan;width: 80px;height: 80px; transform: translate(0px,0px);}
+    
+} 
